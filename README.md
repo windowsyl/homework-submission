@@ -1,1 +1,2 @@
 # homework-submission
+I'm taking a coding class to learn C and we're going to learn how to use git, but at this point it's pretty much just practicing how to use github (which I haven't done before) so I'm just pushing stuff including this (pretty much useless) readme! I just pushed our first assignment that was actual c coding which was finding the "collatz stopping time" for numbers up to 10000, which, if i did it properly, was 77031 with a time of 350. I'm done randomly typing sample text here so I'll commit and push this and then tell my teacher I completed the homework.
