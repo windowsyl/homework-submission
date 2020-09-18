@@ -1,17 +1,14 @@
 #include <stdio.h>
 
 int collatz_stopping_time(int num) {
+    return (num == 1) ? 0 : ((num%2 == 0) ? (collatz_stopping_time(num/2) + 1) : (collatz_stopping_time(3 * num + 1) + 1));
+    /*
     if (num == 1)
     {
         return 0;
     }
-    if (num%2 == 0)
-    {
-        return collatz_stopping_time(num / 2) + 1;
-    } else
-    {
-        return collatz_stopping_time(num * 3 + 1) + 1;
-    }
+    return (num%2 == 0) ? (collatz_stopping_time(num/2) + 1) : (collatz_stopping_time(3 * num + 1) + 1);
+    */
 }
 
 int main(int argc, char *argv[]) {
