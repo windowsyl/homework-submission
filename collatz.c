@@ -34,6 +34,6 @@ int main(int argc, char *argv[]) {
         }
     }
     printf("%i had the longest stopping time of %i \n", current_recordholder, longest_time);
-    printf("%i had the largest ratio of %f \n", ratio_recordholder, ratio_time);
+    printf("%i had the largest ratio of %.2f \n", ratio_recordholder, ratio_time);
     return 0;
 }
