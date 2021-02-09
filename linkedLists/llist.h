@@ -24,5 +24,12 @@ void list_print(const node *head);
 node *list_find(node *head, int value);
 void list_remove(node *n);
 void list_free(node *head);
+//optionals
+node *list_index(node *head, size_t i);
+size_t list_len(node *head);
+bool list_contains(node *head, int value);
+node *list_get_tail(node *head);
+void list_remove_all(node *head, int value);
+int *list_to_array(node *head);
 
 #endif
